@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>DimaTao</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <video autoplay muted loop id="myVideo">
     <source src="hu-tao-genshin-impact-4k-desktop-wallpaperwaifu.com.mp4" type="video/mp4">
@@ -14,7 +16,7 @@
   <script>
     var headline = document.getElementById("headline");
 
-    setInterval(function() {
+    setInterval(function () {
       headline.style.color = getRandomColor();
     }, 1000);
 
@@ -22,10 +24,15 @@
       var letters = "0123456789ABCDEF";
       var color = "#";
       for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+        var randomValue = Math.floor(Math.random() * 16);
+        if (randomValue < 8) {
+          randomValue += 8;
+        }
+        color += letters[randomValue];
       }
       return color;
     }
   </script>
 </body>
+
 </html>

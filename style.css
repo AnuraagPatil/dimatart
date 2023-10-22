@@ -9,9 +9,8 @@
   
   #headline {
     position: absolute;
-    top: 10%;
-    right: 10%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
+    top: 5%;
+    right: 5%;
+    font-size: 3.5em;
     font-family: 'Dancing Script', cursive;
   }
