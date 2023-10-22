@@ -11,7 +11,7 @@
   position: absolute;
   right: 5%;
   font-size: 4em;
-  font-family: cursive;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 @media only screen and (max-width: 600px) {
